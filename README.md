@@ -1,92 +1,56 @@
-\# Job Application Portal
-
-
+Job Application Portal
 
 A Spring Boot MVC–based web application for managing job postings.  
-
 This project demonstrates backend development using Java and Spring Boot with JSP-based server-side rendering.
 
+---
 
+🚀 Features
+
+|| Add new job postings
+||View all available job listings
+|| Server-side rendering using JSP
+|| Clean MVC architecture
+|| Modular controllers and model classes
+|| Form submission and data binding
 
 ---
 
+🛠 Tech Stack 🛠
 
-
-\## 🚀 Features
-
-\- Add new job postings
-
-\- View all available job listings
-
-\- Server-side rendering using JSP
-
-\- Clean MVC architecture
-
-\- Modular controllers and model classes
-
-\- Form submission and data binding
-
-
+> Backend: Java, Spring Boot, Spring MVC
+> Frontend: JSP, HTML, CSS
+> Build Tool: Maven
+> Libraries: Lombok , Spring Web 
+> Architecture: MVC (Model–View–Controller)
 
 ---
 
+📸 Screenshots
 
-
-\## 🛠 Tech Stack
-
-\- \*\*Backend:\*\* Java, Spring Boot, Spring MVC
-
-\- \*\*Frontend:\*\* JSP, HTML, CSS
-
-\- \*\*Build Tool:\*\* Maven
-
-\- \*\*Libraries:\*\* Lombok
-
-\- \*\*Architecture:\*\* MVC (Model–View–Controller)
-
-
-
----
-
-
-
-\## 📸 Screenshots
-
-
-
-\### Home Page<br>
+Home Page<br>
 
 ![Home Page](screenshots/home.jpeg)
 
 
+Add Job Page<br>
 
-\### Add Job Page<br>
 
 ![Add Job](screenshots/addjob.jpeg)
 
 
-
-\### View Jobs Page<br>
+View Jobs Page<br>
 
 ![View Jobs](screenshots/viewalljobs.jpeg)
 
 
-
-\### JobAppController <br>
+JobAppController <br>
 
 ![controller code:](screenshots/controller.jpeg)
 
-
-
-
-
 ---
 
-
-
-\## 📂 Project Structure
-
-
+📂 Project Structure
 
 JobApp
 
@@ -109,12 +73,10 @@ JobApp
 ├── pom.xml
 
 
-
 ---
 
 
-
-\## 🔮 Planned Enhancements
+🔮 Planned Enhancements
 
 \- PostgreSQL integration using Spring Data JPA
 
@@ -123,34 +85,22 @@ JobApp
 \- REST API exposure for frontend frameworks like React
 
 
-
 ---
 
 
+ ▶️ How to Run the Project
 
-\## ▶️ How to Run the Project
-
-1\. Clone the repository:
-
-&nbsp;  ```bash
-
-&nbsp;  git clone https://github.com/Soumyadip010/Job-Application-Portal.git
+1.Clone the repository:
+  &nbsp;  ```bash
+  &nbsp;  git clone https://github.com/Soumyadip010/Job-Application-Portal.git
 
 2.Open the project in IntelliJ / Eclipse
 
-
-
 3.Run JobAppApplication.java
-
-
 
 4.Open browser and visit:
 
 &nbsp;    http://localhost:9999 (This port no can vary based on "server.port" set in the application.properties file)
-
-
-
-
 
 
 
