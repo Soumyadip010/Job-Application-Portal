@@ -54,27 +54,27 @@ This project demonstrates backend development using Java and Spring Boot with JS
 
 
 
-\### Home Page
+\### Home Page<br>
 
-!\[Home Page](screenshots/home.jpeg)
-
-
-
-\### Add Job Page
-
-!\[Add Job](screenshots/addjob.jpeg)
+![Home Page](screenshots/home.jpeg)
 
 
 
-\### View Jobs Page
+\### Add Job Page<br>
 
-!\[View Jobs](screenshots/viewalljobs.jpeg)
+![Add Job](screenshots/addjob.jpeg)
 
 
 
-\### JobAppController
+\### View Jobs Page<br>
 
-!\[controller code:](screenshots/controller.jpeg)
+![View Jobs](screenshots/viewalljobs.jpeg)
+
+
+
+\### JobAppController <br>
+
+![controller code:](screenshots/controller.jpeg)
 
 
 
