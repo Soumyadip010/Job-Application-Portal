@@ -1,0 +1,177 @@
+:root {
+    --primary: #2563EB;     /* Main brand / buttons */
+    --secondary: #14B8A6;   /* Success / accents */
+    --accent: #F59E0B;      /* CTA highlight */
+    --background: #EBF5FF;  /* App background */
+    --surface: #FFFFFF;    /* Cards */
+    --text-dark: #1F2937;  /* Headings */
+    --text-muted: #6B7280; /* Secondary text */
+    --border: #E5E7EB;
+}
+
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+    background: var(--background);
+    color: var(--text-dark);
+    min-height: 100vh;
+}
+
+/* ===== NAVBAR ===== */
+.app-navbar {
+    background: var(--surface);
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.app-logo {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 14px;
+}
+
+.nav-link-btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    transition: all 0.25s ease;
+}
+
+.nav-link-btn:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.app-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* ===== GRID ===== */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+/* ===== GENERIC CARD ===== */
+.app-card {
+    background: var(--surface);
+    border-radius: 14px;
+    padding: 28px;
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.app-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+/* ===== CARD VARIANTS ===== */
+.card-view-jobs {
+    border-top: 4px solid var(--primary);
+}
+
+.card-add-job {
+    border-top: 4px solid var(--secondary);
+}
+
+.card-job-item {
+    border-left: 4px solid var(--primary);
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1e4fd8;
+}
+
+.btn-secondary {
+    background: var(--secondary);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #0ea293;
+}
+
+/* ===== FORMS ===== */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    display: block;
+    color: var(--text-muted);
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: var(--primary);
+}
+
+
+/* ===== SUCCESS PAGE ===== */
+.success-box {
+    max-width: 450px;
+    margin: 100px auto;
+    text-align: center;
+}
