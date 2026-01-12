@@ -7,22 +7,22 @@ This project demonstrates backend development using Java and Spring Boot with JS
 
 🚀 Features
 
-|| Add new job postings
-||View all available job listings
-|| Server-side rendering using JSP
-|| Clean MVC architecture
-|| Modular controllers and model classes
+|| Add new job postings<br>
+||View all available job listings<br>
+|| Server-side rendering using JSP<br>
+|| Clean MVC architecture<br>
+|| Modular controllers and model classes<br>
 || Form submission and data binding
 
 ---
 
 🛠 Tech Stack 🛠
 
-> Backend: Java, Spring Boot, Spring MVC
-> Frontend: JSP, HTML, CSS
-> Build Tool: Maven
-> Libraries: Lombok , Spring Web 
-> Architecture: MVC (Model–View–Controller)
+> Backend: Java, Spring Boot, Spring MVC<br>
+> Frontend: JSP, HTML, CSS<br>
+> Build Tool: Maven<br>
+> Libraries: Lombok , Spring Web<br> 
+> Architecture: MVC (Model–View–Controller)<br>
 
 ---
 
@@ -102,13 +102,9 @@ JobApp
 
 &nbsp;    http://localhost:9999 (This port no can vary based on "server.port" set in the application.properties file)
 
-
-
-
+---
 
 👤 Author
-
-
 
 Soumyadip Sadhukhan
 
